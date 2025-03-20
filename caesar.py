@@ -39,12 +39,12 @@ COLOR_BRIGHT_CYAN = "\033[96m"   # Neon cyan
 def display_banner():
     neon_colors = [COLOR_PURPLE, COLOR_PINK, COLOR_BRIGHT_GREEN, COLOR_BRIGHT_YELLOW, COLOR_BRIGHT_BLUE, COLOR_BRIGHT_CYAN]
     banner = f"""
-{neon_colors[0]}   ██████╗ █████╗ ███████╗███████╗ █████╗ ██████╗ ███████╗{COLOR_RESET}
-{neon_colors[1]}  ██╔════╝██╔══██╗██╔════╝██╔════╝██╔══██╗██╔══██╗██╔════╝{COLOR_RESET}
-{neon_colors[2]}  ██║     ███████║█████╗  █████╗  ███████║██████╔╝█████╗  {COLOR_RESET}
-{neon_colors[3]}  ██║     ██╔══██║██╔══╝  ██╔══╝  ██╔══██║██╔══██╗██╔══╝  {COLOR_RESET}
-{neon_colors[4]}  ╚██████╗██║  ██║███████╗███████╗██║  ██║██║  ██║███████╗{COLOR_RESET}
-{neon_colors[5]}   ╚═════╝╚═╝  ╚═╝╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝{COLOR_RESET}
+{neon_colors[0]} ██████╗ █████╗ ███████╗███████╗ █████╗ ██████╗ {COLOR_RESET}
+{neon_colors[1]}██╔════╝██╔══██╗██╔════╝██╔════╝██╔══██╗██╔══██╗{COLOR_RESET}
+{neon_colors[2]}██║     ███████║█████╗  ███████╗███████║██████╔╝{COLOR_RESET}
+{neon_colors[3]}██║     ██╔══██║██╔══╝  ╚════██║██╔══██║██╔══██╗{COLOR_RESET}
+{neon_colors[4]}╚██████╗██║  ██║███████╗███████║██║  ██║██║  ██║{COLOR_RESET}
+{neon_colors[5]} ╚═════╝╚═╝  ╚═╝╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝{COLOR_RESET}
 {COLOR_YELLOW}       Advanced Caesar Cipher Encryption Tool v1.0{COLOR_RESET}
     """
     # Simple animation effect
